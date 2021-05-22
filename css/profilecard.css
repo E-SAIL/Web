@@ -1,0 +1,58 @@
+ #slidebody{
+   zoom: 0.9 !important;
+ }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #ffffff;
+  }
+ 
+  .card h2{
+    font-size: 24px !important;
+    color: #2487cd;
+  }
+  
+  .card .title {
+    color:#2487cd;
+    font-size: 18px;
+    text-align: center !important;
+  }
+  .card img{
+    border: 1px solid #000000;
+    max-width:95%;margin-top:15%;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:#2487cd;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid transparent;
+    
+  }
+  .card button:hover{
+    background-color: #ffffff;
+    color: #2487cd;
+    border-color: #2487cd
+    
+  }
+  
+  
+  
+  .card a:hover {
+    opacity: 0.7;
+  }
+  .profile-img{
+    height: 70px;
+    width: auto;
+  }

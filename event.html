@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>E-SAIL | Events</title>
+  <!--External Styles-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--_Source Styles-->
+  <link href="css/animate.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bold-card.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-storage.js"></script>
+  <!-- _source Scripts-->
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bold-card.js"></script>
+  <script src="js/appConfig.min.js"></script>
+  <script src="js/evets.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top ">
+        <div class="container">
+          <div class="row">
+            <div class="site-logo">
+              <a href="index.html" class="brand">
+                  <img src="assets/CU_ESAIL_logo.png" alt="E-SAIL" style="margin-top: -15% !important;">
+              </a>
+            </div>
+            <!-- /.Navbar-collapse -->
+          </div>
+        </div>
+      </nav>
+      <div id="home">
+          <div class="slider">
+            <div id="about-slider">
+              <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators visible-xs">
+                  <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-slider" data-slide-to="1"></li>
+                  <li data-target="#carousel-slider" data-slide-to="2"></li>
+                  <li data-target="#carousel-slider" data-slide-to="3"></li>
+                </ol>
+      
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="assets/img/slide1.jpg" class="img-responsive" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/slide2.jpg" class="img-responsive" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/slide3.jpg" class="img-responsive" alt="">
+                  </div>
+                  <div class="item">
+                      <img src="assets/img/slide4.jpg" class="img-responsive" alt="">
+                    </div>
+                </div>
+      
+                <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                </a>
+      
+                <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                </a>
+              </div>
+              <!--/#carousel-slider-->
+            </div>
+            <!--/#about-slider-->
+          </div>
+        </div>
+
+      <section>
+        <div class="container">
+          <div id='eventList' class="col s12 m7">
+          </div>
+      
+        </div>
+      </section>
+
+    
+  
+  
+
+  <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+            <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+          </div>
+          &copy; CHRIST (Deemed To Be University)
+          <div class="credits">
+              Designed and developed by Graphic eStudio
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+  </footer>
+  <!--/#footer-->
+
+  
+
+
+</body>
+
+</html>
